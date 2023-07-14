@@ -75,11 +75,20 @@ main {
 .portfolio {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
 }
 
 .showcase-project {
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.showcase-project a {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .showcase-project a img {
@@ -91,9 +100,19 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+}
+
+.project a {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .project-img {
-    height: 50%;
+    height: 300px;
+    width: 100%;
+}
+
+.project-right {
+    margin-left: 15px;
 }
